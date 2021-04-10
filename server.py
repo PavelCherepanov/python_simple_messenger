@@ -1,7 +1,7 @@
 import socket, time
 
 host = socket.gethostbyname(socket.gethostname())
-port = 9090
+port = 9191
 
 clients = []
 
@@ -11,7 +11,7 @@ s.bind((host, port))
 
 quit = False
 print("[-----SERVER STARTED-----]")
-#print(host)
+print(host)
 
 while not quit:
 	try:
